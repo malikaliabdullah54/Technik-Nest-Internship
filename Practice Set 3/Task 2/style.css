@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  overflow-x: hidden;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo .highlight {
+  color: #f90;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  position: relative;
+}
+
+nav a.active::after,
+nav a:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 3px;
+  background: #f90;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  gap: 40px;
+  position: relative;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.bold {
+  color: #2d2d72;
+}
+
+.highlight {
+  color: #f90;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #f90;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.review img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.review-text {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.2;
+}
+
+.hero-image {
+  position: relative;
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 450px;
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.decorations .icon {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-chart {
+  top: 150px;
+  left: 5%;
+}
+
+.icon-award {
+  top: 220px;
+  right: 27%;
+}
+
+.icon-coins {
+  top: 360px;
+  right: 22%;
+}
+
+.icon-analytics {
+  top: 420px;
+  right: 10%;
+}
+
+.blob {
+  position: absolute;
+  background: #fceee6;
+  border-radius: 50%;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.blob1 {
+  width: 500px;
+  height: 500px;
+  top: 180px;
+  left: -200px;
+}
+
+.blob2 {
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -200px;
+}
