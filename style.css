@@ -1,16 +1,58 @@
 body{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Labels{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Label{
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-h1{
-    text-transform: uppercase;
+.Traffic-Light{
+    background-color: #333;
+    width: 120px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
-#outer{
-    font-size: 25px;
+.Light{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
-#inner{
-    font-size: 10px;
+.Red{
+    background-color: red;
+}
+
+.Yellow{
+    background-color: yellow;
+}
+
+.Green{
+    background-color: green;
 }
