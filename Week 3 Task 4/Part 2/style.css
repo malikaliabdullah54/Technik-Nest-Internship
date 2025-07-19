@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fefaf7;
+}
+
+.webpage {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-header .highlight {
+  color: #f5a623;
+}
+
+.section-header p {
+  max-width: 700px;
+  margin: 10px auto 0;
+  font-size: 15px;
+  color: #666;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.section-main {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-main h2 {
+  font-size: 20px;
+  color: #2e2a79;
+  margin-bottom: 20px;
+}
+
+.section-main p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.section-picture {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.section-card {
+  position: relative;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.section-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn.left {
+  left: -16px;
+}
+
+.nav-btn.right {
+  right: -560px;
+}
+
+.section-popup {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transform: translateY(50%);
+}
+
+.section-popup p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.section-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-user strong {
+  font-size: 15px;
+  color: #333;
+}
+
+.section-user p {
+  font-size: 13px;
+  color: #777;
+  margin: 2px 0;
+}
+
+.rating span {
+  color: #f5a623;
+  font-size: 18px;
+}
+
+.rating p {
+  font-size: 12px;
+  color: #777;
+}

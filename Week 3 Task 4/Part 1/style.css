@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Inter', sans-serif;
+    background-color: #fdf9f6;
+}
+
+.services-section{
+    padding: 60px 20px;
+  text-align: center;
+}
+
+.services-header h1{
+    font-size: 32px;
+  font-weight: 600;
+}
+
+.services-header h1 .highlight {
+  color: #f5a623;
+}
+
+.services-header p {
+  max-width: 700px;
+  margin: 10px auto 40px;
+  font-size: 15px;
+  color: #666;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  padding: 40px 25px 30px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.logo-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-1 img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-2 img {
+  width: 30px;
+  height: 30px;
+}
+
+.Dark-blue {
+  background-color: #2e2a79;
+}
+
+.Orange {
+  background-color: #f5a623;
+}
+
+.service-card h2 {
+  margin: 15px 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.readmore {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.readmore:hover {
+  background-color: #ddd;
+}
